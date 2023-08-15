@@ -1,6 +1,6 @@
 import random
 # Criar uma matriz
-def lista(x):
+def criaMatriz(x):
     i = j = x
     matriz = []
     for n in range(0,j):
@@ -9,7 +9,7 @@ def lista(x):
 
 
 # Criar uma matriz de números aleatórios
-def listaAleatória(x):
+def criaMatrizDeNumerosAleatórios(x):
     matrizaleatoria = lista(x)
     for n in range(len(matrizaleatoria)):
         for j in range(len(matrizaleatoria[0])):
